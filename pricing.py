@@ -1,7 +1,7 @@
 """Pricing rules for the Git collaboration exercise."""
 
 
-DISCOUNT_RATES = {"standard": 0.05, "premium": 0.10, "vip": 0.20}
+DISCOUNT_RATES = {"standard": 0.08, "premium": 0.15, "vip": 0.20}
 
 
 def get_discount_rate(customer_level: str) -> float:
